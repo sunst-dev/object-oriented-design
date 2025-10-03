@@ -10,12 +10,4 @@ Key requirements:
 - Provide administrative hooks for reserving spots and marking areas as closed for maintenance.
 
 ## Solution Summary
-The design is split into focused packages:
-- `core` supplies the `ParkingLot` orchestrator that ties together spot assignment, ticketing, and billing.
-- `parking` contains floors and spot models responsible for capacity tracking and fit checks.
-- `vehicle` models the `Vehicle` hierarchy so spot matching can remain type-aware.
-- `ticket` owns ticket lifecycle, timestamps, and captured charges.
-- `pricing` defines interchangeable fee strategies (flat vs. hourly) that operate on tickets.
-- `assignment` provides strategies for selecting the next available spot across floors.
-
-This modular layout keeps responsibilities isolated while making it straightforward to add new vehicle types, spot rules, or pricing policies without touching the rest of the system.
+https://www.youtube.com/watch?v=nwioCA5nrYc
