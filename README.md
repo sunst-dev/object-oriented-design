@@ -24,4 +24,4 @@ Have an interesting OOD example to share? Open a pull request with:
 - Sample code and tests demonstrating the solution.
 
 ## License
-Add licensing details here if you plan to share or reuse the examples.
+This project is released under the MIT License. See `LICENSE` for the full legal text.
